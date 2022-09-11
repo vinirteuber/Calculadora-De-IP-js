@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #eef;
+}
+
+header {
+  color: #eef;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #00e1ff, #2137dd);
+}
+
+header span {
+  font-weight: 100;
+}
+
+input {
+  outline: 0;
+  font-size: 14pt;
+  color: #00e1ff;
+  border-radius: 10px;
+  height: 60px;
+  width: 700px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background-color: #dff4f6;
+  border: 2px solid #00e1ff;
+}
+
+::placeholder {
+  color: #00e1ff;
+}
+
+section {
+  border-radius: 10px;
+}
+
+form {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  background: linear-gradient(45deg, #00e1ff, #2137dd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  cursor: pointer;
+  height: 60px;
+  width: 600px;
+  color: #eef;
+  font-size: 16pt;
+  font-weight: 200;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #00e1ff, #2137dd);
+}
+
+button:hover {
+  background: #eef;
+  background: linear-gradient(45deg, #00e1ff, #2137dd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid #00e1ff;
+  transition: 0.2s;
+}
+
+p {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #2137dd;
+}
+
+.card {
+  margin-top: 2rem;
+  border: 3px dashed #00e1ff;
+}
+
+.card span {
+  font-size: 16pt;
+  background: linear-gradient(45deg, #00e1ff, #2137dd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
